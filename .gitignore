@@ -1,0 +1,62 @@
+# ========== Global ==========
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# ========== Java / Spring Boot ==========
+**/target/
+**/out/
+**/.classpath
+**/.project
+**/.settings/
+**/.mvn/
+**/logs/
+**/bin/
+**/*.jar
+**/*.war
+**/*.ear
+**/*.class
+
+# Maven wrapper
+**/mvnw
+**/mvnw.cmd
+**/.mvn/
+
+# Spring Boot specific
+**/application.properties
+**/application.yml
+**/application-dev.yml
+**/application-prod.yml
+
+# ========== Angular ==========
+# Angular output
+**/swisspine-angular-app/node_modules/
+**/swisspine-angular-app/dist/
+**/swisspine-angular-app/.angular/
+
+# Compiled output
+**/*.js
+**/*.js.map
+**/*.tsbuildinfo
+
+# IDE stuff (Angular or Spring Boot)
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.log
+
+# Testing
+coverage/
+test-output/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+desktop.ini
